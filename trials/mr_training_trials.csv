@@ -1,0 +1,13 @@
+picture,item,expected,angle
+images/training/13_50_same.jpg,13,same,50
+images/training/13_50_different.jpg,13,different,50
+images/training/13_150_same.jpg,13,same,150
+images/training/13_150_different.jpg,13,different,150
+images/training/14_50_same.jpg,14,same,50
+images/training/14_50_different.jpg,14,different,50
+images/training/14_150_same.jpg,14,same,150
+images/training/14_150_different.jpg,14,different,150
+images/training/15_50_same.jpg,15,same,50
+images/training/15_50_different.jpg,15,different,50
+images/training/15_150_same.jpg,15,same,150
+images/training/15_150_different.jpg,15,different,150
