@@ -1,98 +1,139 @@
 <template>
   <Experiment title="_magpie mental-rotation">
     <InstructionScreen :title="'Welcome'">
-      Welcome to this short experiment (~10 minutes) on visual cognition. Thank you for participating!
+      Welcome to this short psychology experiment (~10 minutes). Thank you for participating!
       <br />  <br />
       Click next to learn more about the experimental task.
     </InstructionScreen>
 
-    <InstructionScreen :title="'General Instructions'">
-      <h2>Task:</h2>
-      In the following 11 trials you will be presented two images of gemoetric cubes.
-      Your task is to decide whether both cubes share the same shape or not.
+    <InstructionScreen :title="'Task'">
+      In the task you will be presented different letters scattered across the screen.
+      Your task is to decide whether a specific letter (e.g. a red X) is present or not.
       <br />
       <br />
-      Please press button  <b>f</b> on your keyboard if you think that the cubes have <b>{{keys[0]}}</b> shapes.
+      Please press button <b>J</b> on your keyboard if the letter in question is <b>present</b>.
       <br />
-      Please press button  <b>j</b> on your keyboard if you think that the cubes have <b>{{keys[1]}}</b> shapes.
+      Please press button <b>F</b> on your keyboard if the letter in question is<b> not present</b>.
 
       <br />
       <br />
-      It is important that you try to response as fast and as correct as possible!
+      It is important that you try to respond as fast and as correct as possible!
 
       <br />
-      Good luck!
     </InstructionScreen>
 
-    <!-- Here we create screens in a loop for every entry in forced_choice -->
-    <template v-for="(training_trial, i) of training_trials">
-      <KeypressScreen
-        :keys="{'f': keys[0], 'j': keys[1]}"
-        :progress="i / training_trials.length"
-        :question="training_trial.question"
-        :options="[training_trial.option1, training_trial.option2]"
-        :fixationTime= "Math.floor(Math.random() * 1500 + 500)"
-        :responseTime="7500"
-        :feedbackTime="800"
-      >
-        <template #stimulus>
-          <img :src="training_trial.picture" />
-          <Record :data="{
-              image: training_trial.picture,
-              angle: training_trial.angle,
-              expected: training_trial.expected,
-              item: training_trial.item,
-              trial_type: 'training',
-              trial_number: i
-            }" />
-        </template>
+    <InstructionScreen :title="'Procedure'">
+      The trials are divided in six blocks. Before each block we will inform you about the specific letter you should look for. This letter does not change between trials only between blocks.
+      <br />
+      <br />
+      Each trial is conceptualised as follows:
+      <ul>
+        <li>Fixation: Please fixate the center of a cross that will be displayed.</li>
+        <li>Task: Please search for the specific letter as fast and accurate as possible.</li>
+        <li>Feedback: After each trial you will be told if the response was correct or incorrect.</li>
+      </ul>
+      <br />
+    </InstructionScreen>
 
-        <template #feedback>
-          <p v-if="!$magpie.measurements.hasOwnProperty('response')">Faster!</p>
-          <p v-else-if="$magpie.measurements.response == $magpie.measurements.expected"> Correct! </p>
-          <p v-else> Wrong!</p>
-        </template>
-      </KeypressScreen>
+    <InstructionScreen :title="'Calibration'">
+      To ensure that the trials are presented correctly, it is necessary to shortly calibrate the size of your browser window.
+      Please adjust the size of your browser window (zoom option) such that the displayed form roughly matches the size of an actual crdit card or ID card.
+      <br/>  <br/>
+      <div style="width: 375px; height: 230px; border-radius: 10px; background-color: grey; margin-left: auto; margin-right: auto;"></div>
+      <br/>
+      Please position yourself so that:
+      <ul>
+        <li>the screen is about an arm's length away from you</li>
+        <li>your left index finger is located on the button F</li>
+        <li>your right index finger is located on the button J</li>
+      </ul>
+      Click next to start the experiment. Good luck!
+      <br />
+    </InstructionScreen>
+
+    <!-- Loop over blocks in the order given-->
+    <template v-for="(block, i) of blocks">
+      <InstructionScreen :title="'New Block'">
+        In the upcoming trials your task to search for
+        <span v-if="block[0].condition === 'disjunction'">
+          an <b>S or any <span style='color: blue'> blue</span> letter.</b>
+        </span>
+        <span v-else>
+          a<b><span style='color: green'> green T.</span></b>
+        </span>
+      </InstructionScreen>
+
+      <!-- Loop over trials within a block-->
+      <template v-for="(trial, j) of block">
+        <KeypressScreen
+          :keys="{'f': 'negative', 'j': 'positive'}"
+          :progress="i / block.length"
+          :fixationTime= "1000"
+          :feedbackTime="200000"
+        >
+          <template #stimulus>
+            <img :src="trial.picture" />
+            <Record :data="{
+                image: trial.picture,
+                target: trial.target,
+                target_color: trial.target_color,
+                display_size: trial.display_size,
+                expected: trial.expected,
+                condition: trial.condition,
+                trial_number: j,
+                block_number: i
+              }" />
+          </template>
+
+          <template #feedback>
+            <p v-if="$magpie.measurements.response == $magpie.measurements.expected"> Correct! Your reaction time was {{getLastRT($magpie.trialData)}} milliseconds</p>
+            <p v-else> Wrong!</p>
+          </template>
+        </KeypressScreen>
+      </template>
     </template>
 
     <PostTestScreen />
 
     <!-- While developing your experiment, using the DebugResults screen is fine,
       once you're going live, you can use the <SubmitResults> screen to automatically send your experimental data to the server.
-
-      <template #feedback>
-        <p v-if="!$magpie.measurements.hasOwnProperty('response')">Faster!</p>
-        <p v-else-if="!$magpie.measurements.hasOwnProperty('response')"> Wrong </p>
-        <p v-else> Correct </p>
-      </template>
-
-      mounted() { this.$magpie.addExpData({
-          same_key : same_key });
-      }
-
     -->
-    <SubmitResultsScreen/>
+
+    <!-- SubmitResultsScreen/ -->
+    <DebugResultsScreen/>
   </Experiment>
 </template>
 
 <script>
 
 // Load data from csv files as javascript arrays with objects
-import main_trials from '../trials/mr_main_trials.csv';
-import training_trials from '../trials/mr_training_trials.csv';
-
+import conjunction_trials from '../trials/conjunction_trials.csv';
+import disjunction_trials from '../trials/disjunction_trials.csv';
 import _ from 'lodash';
+
+// block randomization
+//let blockorder = _.shuffle(['CDDCCD', 'DCCDDC'])[0];
+let blockorder = _.shuffle(['C', 'D'])[0];
+
+// double trials from 64 to 128, suich that each apears twice in a block
+let conjunction_block = conjunction_trials.concat(conjunction_trials);
+let disjunction_block = disjunction_trials.concat(disjunction_trials);
+
+// create blocks accoridng to block order
+let blocks = [];
+let target_names = [];
+for(const block of blockorder){
+  blocks.push(block == 'C' ? _.shuffle(conjunction_block) : _.shuffle(disjunction_block));
+  target_names.push()
+}
 
 export default {
   name: 'App',
   data() {
 
     return {
-      main_trials: _.shuffle(main_trials),
-      training_trials: _.shuffle(training_trials),
-      imageSelection: _.shuffle(imageSelection),
-      sliderRating,
-      keys: _.shuffle(['same', 'different']),
+      blockorder: blockorder,
+      blocks: blocks,
 
       // Expose lodash.range to template above
       range: _.range
@@ -100,65 +141,22 @@ export default {
   },
 
   mounted() {
-    // store same key
-    let same_key = this._data.keys[0] == 'same' ? 'f' : 'j';
     this.$magpie.addExpData({
-      same_key : same_key  });
-  }
+      blockorder : this._data.blockorder});
+  },
+
+  methods: {
+      getLastRT(trial_data) {
+          if(Object.keys(trial_data).length > 0){
+            let last_key = Object.keys(trial_data).sort().reverse()[0];
+            let last_trial = json[last_Key];
+            return last_trial[0].response_time;
+
+          } else {
+            return 'empty'
+          }
+      }
+    }
 };
 
-const imageSelection = [
-  {
-    QUD: 'image selection - loop: 1, trial: 1',
-    question: 'How are you today?',
-    option1: 'fine',
-    picture1: 'images/question_mark_02.png',
-    option2: 'great',
-    picture2: 'images/question_mark_01.png'
-  },
-  {
-    QUD: 'image selection - loop: 1, trial: 2',
-    option1: 'shiny',
-    picture1: 'images/question_mark_03.jpg',
-    option2: 'rainbow',
-    picture2: 'images/question_mark_04.png'
-  },
-  {
-    QUD: 'image selection - loop: 2, trial: 1',
-    question: 'How are you today?',
-    option1: 'fine',
-    picture1: 'images/question_mark_03.jpg',
-    option2: 'great',
-    picture2: 'images/question_mark_01.png'
-  },
-  {
-    QUD: 'image selection - loop: 2, trial: 2',
-    option1: 'shiny',
-    picture1: 'images/question_mark_02.png',
-    option2: 'rainbow',
-    picture2: 'images/question_mark_04.png'
-  }
-];
-
-const sliderRating = [
-  {
-    picture: 'images/question_mark_02.png',
-    question: 'How are you today?',
-    optionLeft: 'fine',
-    optionRight: 'great'
-  },
-  {
-    picture: 'images/question_mark_01.png',
-    question: "What's the weather like?",
-    optionLeft: 'shiny',
-    optionRight: 'rainbow'
-  },
-  {
-    QUD: 'Here is a sentence that stays on the screen from the very beginning',
-    picture: 'images/question_mark_03.jpg',
-    question: "What's on the bread?",
-    optionLeft: 'ham',
-    optionRight: 'jam'
-  }
-];
 </script>

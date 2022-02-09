@@ -1,0 +1,2 @@
+picture,target,target_color,expected,display_size,condition
+images/training/13_50_same.jpg,X,green,positive,5,disjunction
