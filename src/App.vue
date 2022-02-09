@@ -69,7 +69,7 @@
           :keys="{'f': 'negative', 'j': 'positive'}"
           :progress="i / block.length"
           :fixationTime= "1000"
-          :feedbackTime="200000"
+          :feedbackTime="2000"
         >
           <template #stimulus>
             <img :src="trial.picture" />
@@ -86,8 +86,9 @@
           </template>
 
           <template #feedback>
-            <p v-if="$magpie.measurements.response == $magpie.measurements.expected"> Correct! Your reaction time was {{getLastRT($magpie.trialData)}} milliseconds</p>
+            <p v-if="$magpie.measurements.response == $magpie.measurements.expected"> Correct!</p>
             <p v-else> Wrong!</p>
+            Your reaction time was {{getLastRT($magpie.trialData)}} milliseconds
           </template>
         </KeypressScreen>
       </template>
@@ -112,8 +113,8 @@ import disjunction_trials from '../trials/disjunction_trials.csv';
 import _ from 'lodash';
 
 // block randomization
-//let blockorder = _.shuffle(['CDDCCD', 'DCCDDC'])[0];
-let blockorder = _.shuffle(['C', 'D'])[0];
+let blockorder = _.shuffle(['CDDCCD', 'DCCDDC'])[0];
+//let blockorder = _.shuffle(['C', 'D'])[0];
 
 // double trials from 64 to 128, suich that each apears twice in a block
 let conjunction_block = conjunction_trials.concat(conjunction_trials);
@@ -149,7 +150,7 @@ export default {
       getLastRT(trial_data) {
           if(Object.keys(trial_data).length > 0){
             let last_key = Object.keys(trial_data).sort().reverse()[0];
-            let last_trial = json[last_Key];
+            let last_trial = trial_data[last_key];
             return last_trial[0].response_time;
 
           } else {
