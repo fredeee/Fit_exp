@@ -2,6 +2,10 @@
   <Experiment title="_magpie mental-rotation">
     <InstructionScreen :title="'Welcome'">
       Welcome to this short psychology experiment (~10 minutes). Thank you for participating!
+     <br/> <br />
+      This study is conducted by a student seminar at the Universität Tübingen.
+      We only collect anonymous data such as response times. You will not be compensated for your time, except for a sincere thank you. You can stop the experiment at any point if you feel so.
+      If you have further questions feel free to contact us via <a href="mailto:frederic.becker@student.uni-tuebingen.de">email</a>.
       <br />  <br />
       Click next to learn more about the experimental task.
     </InstructionScreen>
@@ -18,26 +22,17 @@
       <br />
       <br />
       It is important that you try to respond as fast and as correct as possible!
-
       <br />
     </InstructionScreen>
 
     <InstructionScreen :title="'Procedure'">
-      The trials are divided in six blocks. Before each block we will inform you about the specific letter you should look for. This letter does not change between trials only between blocks.
-      <br />
-      <br />
-      Each trial is conceptualised as follows:
-      <ul>
-        <li>Fixation: Please fixate the center of a cross that will be displayed.</li>
-        <li>Task: Please search for the specific letter as fast and accurate as possible.</li>
-        <li>Feedback: After each trial you will be told if the response was correct or incorrect.</li>
-      </ul>
+      The experiment consists of two task blocks. Before each block we will inform you about the specific letter you should look for. <b>This letter only changes between blocks</b>.
       <br />
     </InstructionScreen>
 
     <InstructionScreen :title="'Calibration'">
       To ensure that the trials are presented correctly, it is necessary to shortly calibrate the size of your browser window.
-      Please adjust the size of your browser window (zoom option) such that the displayed form roughly matches the size of an actual crdit card or ID card.
+      Please adjust the size of your browser window (zoom option) such that the displayed form roughly matches the size of an actual credit card or ID card.
       <br/>  <br/>
       <div style="width: 375px; height: 230px; border-radius: 10px; background-color: grey; margin-left: auto; margin-right: auto;"></div>
       <br/>
