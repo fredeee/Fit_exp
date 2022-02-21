@@ -31,8 +31,8 @@
 
     <InstructionScreen :title="'Procedure'">
       The experiment consists of two task blocks. Prior to each block we will inform you about the specific target letter you are supposed to look out for.
-      <b>The target letter only changes between blocks not between trials!</b>.
-      <br />
+      <b>The target letter only changes between blocks not between trials!</b>
+      <br /><br />
       After each block you will get the chance to take a short pause if you like before you continue with the next block.
       <br />
     </InstructionScreen>
