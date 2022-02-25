@@ -14,6 +14,8 @@
       Click next to learn more about your task.
     </InstructionScreen>
 
+    <FullscreenStart/>
+
     <InstructionScreen :title="'Task'">
       In the task you will be presented different letters scattered across the screen.
       Your task is to decide whether a specific letter (e.g. a red X) is present or not.
