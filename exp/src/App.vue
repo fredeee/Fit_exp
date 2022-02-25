@@ -4,7 +4,7 @@
       Welcome and thank you for participating!
      <br/> <br />
 
-      In this short psychology experiment (~10 minutes) we will collect anonymous data only
+      In this short psychology experiment (~13 minutes) we will collect anonymous data only
       (e.g., accuracy of response and response times). The study is conducted by a student seminar at the University of Tuebingen.
       You will not be compensated for your time, except for a sincere thank you for taking an active part in science.
 
@@ -73,7 +73,7 @@
           :keys="{'f': 'negative', 'j': 'positive'}"
           :progress="i / block.length"
           :fixationTime= "1000"
-          :feedbackTime="2000"
+          :feedbackTime="1500"
         >
           <template #stimulus>
             <img :src="trial.picture" />
@@ -92,7 +92,7 @@
           <template #feedback>
             <p v-if="$magpie.measurements.response == $magpie.measurements.expected"> Correct!</p>
             <p v-else> Wrong!</p>
-            Your reaction time was {{getLastRT($magpie.trialData)}} milliseconds
+            Your reaction time was {{getLastRT($magpie.trialData)}} milliseconds.
           </template>
         </KeypressScreen>
       </template>
@@ -111,7 +111,7 @@
 
 <script>
 
-// Load data from csv files as javascript arrays with objects
+// Load data from csv files as arrays with objects
 import feature_trials1 from '../trials/feature1.csv';
 import feature_trials2 from '../trials/feature2.csv';
 
