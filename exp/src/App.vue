@@ -152,16 +152,15 @@ export default {
   methods: {
       getLastRT(trial_data) {
           if(Object.keys(trial_data).length > 0){
-            let last_key = Object.keys(trial_data).sort().reverse()[0];
+            let last_key = Object.keys(trial_data)[Object.keys(trial_data).length-1];
             let last_trial = trial_data[last_key];
-
-            console.log(last_trial)
             return last_trial[0].response_time;
 
           } else {
             return 'empty'
           }
-      }
+      },
+
     }
 };
 
