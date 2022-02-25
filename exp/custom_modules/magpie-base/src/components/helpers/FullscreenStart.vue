@@ -6,7 +6,16 @@ This component asks the user to enable full screen.
 export default {
   name: 'FullscreenStart',
   mounted() {
-    document.documentElement.requestFullscreen();
+    let elem = document.documentElement;
+
+    if (elem.requestFullscreen) {
+      elem.requestFullscreen();
+    } else if (elem.webkitRequestFullscreen) { /* Safari */
+      elem.webkitRequestFullscreen();
+    } else if (elem.msRequestFullscreen) { /* IE11 */
+      elem.msRequestFullscreen();
+    }
+
     $magpie.nextScreen()
   }
 };
