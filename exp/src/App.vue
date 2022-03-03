@@ -104,8 +104,8 @@
       once you're going live, you can use the <SubmitResults> screen to automatically send your experimental data to the server.
     -->
 
-    <!-- SubmitResultsScreen/ -->
-    <DebugResultsScreen/>
+    <SubmitResultsScreen/>
+    <!--- DebugResultsScreen/ -->
   </Experiment>
 </template>
 
