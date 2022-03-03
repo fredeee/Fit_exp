@@ -1,0 +1,513 @@
+submission_id,age,block_number,blockorder,condition,display_size,education,expected,experiment_duration,experiment_end_time,experiment_start_time,gender,image,qud,question,response,response_time,target,target_color,trial_number
+3284,,0,CDCD,feature,15,,negative,765728,1646126501039,1646125735311,,images/card_119.png,,,negative,3763,-,-,0
+3284,,0,CDCD,feature,5,,negative,765728,1646126501039,1646125735311,,images/card_109.png,,,negative,1179,-,-,1
+3284,,0,CDCD,feature,30,,positive,765728,1646126501039,1646125735311,,images/card_056.png,,,negative,2278,S,brown,2
+3284,,0,CDCD,feature,15,,negative,765728,1646126501039,1646125735311,,images/card_119.png,,,negative,6443,-,-,3
+3284,,0,CDCD,feature,5,,positive,765728,1646126501039,1646125735311,,images/card_060.png,,,positive,1792,S,green,4
+3284,,0,CDCD,feature,30,,negative,765728,1646126501039,1646125735311,,images/card_126.png,,,negative,2246,-,-,5
+3284,,0,CDCD,feature,5,,positive,765728,1646126501039,1646125735311,,images/card_043.png,,,positive,1139,T,blue,6
+3284,,0,CDCD,feature,30,,negative,765728,1646126501039,1646125735311,,images/card_127.png,,,negative,1877,-,-,7
+3284,,0,CDCD,feature,15,,positive,765728,1646126501039,1646125735311,,images/card_045.png,,,positive,1059,T,blue,8
+3284,,0,CDCD,feature,30,,positive,765728,1646126501039,1646125735311,,images/card_047.png,,,positive,1195,T,blue,9
+3284,,0,CDCD,feature,5,,negative,765728,1646126501039,1646125735311,,images/card_111.png,,,negative,897,-,-,10
+3284,,0,CDCD,feature,15,,positive,765728,1646126501039,1646125735311,,images/card_054.png,,,positive,1081,S,brown,11
+3284,,0,CDCD,feature,30,,negative,765728,1646126501039,1646125735311,,images/card_128.png,,,positive,1404,-,-,12
+3284,,0,CDCD,feature,15,,positive,765728,1646126501039,1646125735311,,images/card_038.png,,,positive,1155,X,blue,13
+3284,,0,CDCD,feature,15,,positive,765728,1646126501039,1646125735311,,images/card_062.png,,,negative,1127,S,green,14
+3284,,0,CDCD,feature,5,,positive,765728,1646126501039,1646125735311,,images/card_052.png,,,positive,1083,S,brown,15
+3284,,0,CDCD,feature,1,,negative,765728,1646126501039,1646125735311,,images/card_103.png,,,negative,1600,-,-,16
+3284,,0,CDCD,feature,1,,negative,765728,1646126501039,1646125735311,,images/card_102.png,,,negative,1572,-,-,17
+3284,,0,CDCD,feature,1,,positive,765728,1646126501039,1646125735311,,images/card_050.png,,,positive,1475,S,brown,18
+3284,,0,CDCD,feature,1,,positive,765728,1646126501039,1646125735311,,images/card_034.png,,,positive,1006,X,blue,19
+3284,,0,CDCD,feature,5,,negative,765728,1646126501039,1646125735311,,images/card_112.png,,,negative,1305,-,-,20
+3284,,0,CDCD,feature,30,,positive,765728,1646126501039,1646125735311,,images/card_040.png,,,positive,924,X,blue,21
+3284,,0,CDCD,feature,1,,positive,765728,1646126501039,1646125735311,,images/card_058.png,,,positive,947,S,green,22
+3284,,0,CDCD,feature,15,,negative,765728,1646126501039,1646125735311,,images/card_120.png,,,negative,1246,-,-,23
+3284,,0,CDCD,feature,1,,negative,765728,1646126501039,1646125735311,,images/card_104.png,,,negative,936,-,-,24
+3284,,0,CDCD,feature,15,,negative,765728,1646126501039,1646125735311,,images/card_120.png,,,negative,1122,-,-,25
+3284,,0,CDCD,feature,30,,positive,765728,1646126501039,1646125735311,,images/card_064.png,,,positive,1325,S,green,26
+3284,,0,CDCD,feature,1,,positive,765728,1646126501039,1646125735311,,images/card_041.png,,,positive,914,T,blue,27
+3284,,0,CDCD,feature,5,,negative,765728,1646126501039,1646125735311,,images/card_110.png,,,negative,895,-,-,28
+3284,,0,CDCD,feature,5,,positive,765728,1646126501039,1646125735311,,images/card_036.png,,,positive,849,X,blue,29
+3284,,0,CDCD,feature,1,,negative,765728,1646126501039,1646125735311,,images/card_101.png,,,negative,950,-,-,30
+3284,,0,CDCD,feature,30,,negative,765728,1646126501039,1646125735311,,images/card_125.png,,,negative,1199,-,-,31
+3284,,1,CDCD,conjunction,1,,positive,765728,1646126501039,1646125735311,,images/card_003.png,,,positive,1709,T,green,0
+3284,,1,CDCD,conjunction,1,,negative,765728,1646126501039,1646125735311,,images/card_066.png,,,negative,1189,-,-,1
+3284,,1,CDCD,conjunction,30,,negative,765728,1646126501039,1646125735311,,images/card_089.png,,,negative,2272,-,-,2
+3284,,1,CDCD,conjunction,15,,positive,765728,1646126501039,1646125735311,,images/card_020.png,,,positive,1740,T,green,3
+3284,,1,CDCD,conjunction,30,,negative,765728,1646126501039,1646125735311,,images/card_090.png,,,negative,1687,-,-,4
+3284,,1,CDCD,conjunction,1,,positive,765728,1646126501039,1646125735311,,images/card_002.png,,,positive,884,T,green,5
+3284,,1,CDCD,conjunction,1,,negative,765728,1646126501039,1646125735311,,images/card_067.png,,,negative,1401,-,-,6
+3284,,1,CDCD,conjunction,15,,negative,765728,1646126501039,1646125735311,,images/card_082.png,,,negative,1687,-,-,7
+3284,,1,CDCD,conjunction,30,,positive,765728,1646126501039,1646125735311,,images/card_026.png,,,positive,1860,T,green,8
+3284,,1,CDCD,conjunction,30,,negative,765728,1646126501039,1646125735311,,images/card_092.png,,,negative,1724,-,-,9
+3284,,1,CDCD,conjunction,30,,positive,765728,1646126501039,1646125735311,,images/card_028.png,,,positive,2052,T,green,10
+3284,,1,CDCD,conjunction,1,,positive,765728,1646126501039,1646125735311,,images/card_001.png,,,positive,1040,T,green,11
+3284,,1,CDCD,conjunction,15,,negative,765728,1646126501039,1646125735311,,images/card_083.png,,,negative,2180,-,-,12
+3284,,1,CDCD,conjunction,5,,negative,765728,1646126501039,1646125735311,,images/card_076.png,,,negative,1060,-,,13
+3284,,1,CDCD,conjunction,15,,positive,765728,1646126501039,1646125735311,,images/card_018.png,,,positive,1147,T,green,14
+3284,,1,CDCD,conjunction,5,,positive,765728,1646126501039,1646125735311,,images/card_010.png,,,positive,1346,T,green,15
+3284,,1,CDCD,conjunction,5,,negative,765728,1646126501039,1646125735311,,images/card_073.png,,,negative,1290,-,-,16
+3284,,1,CDCD,conjunction,1,,negative,765728,1646126501039,1646125735311,,images/card_065.png,,,negative,963,-,-,17
+3284,,1,CDCD,conjunction,5,,negative,765728,1646126501039,1646125735311,,images/card_075.png,,,negative,1008,-,-,18
+3284,,1,CDCD,conjunction,5,,positive,765728,1646126501039,1646125735311,,images/card_011.png,,,negative,1006,T,green,19
+3284,,1,CDCD,conjunction,1,,positive,765728,1646126501039,1646125735311,,images/card_004.png,,,positive,892,T,green,20
+3284,,1,CDCD,conjunction,15,,negative,765728,1646126501039,1646125735311,,images/card_081.png,,,negative,1692,-,-,21
+3284,,1,CDCD,conjunction,15,,positive,765728,1646126501039,1646125735311,,images/card_017.png,,,positive,1130,T,green,22
+3284,,1,CDCD,conjunction,1,,negative,765728,1646126501039,1646125735311,,images/card_068.png,,,negative,1042,-,-,23
+3284,,1,CDCD,conjunction,30,,negative,765728,1646126501039,1646125735311,,images/card_091.png,,,negative,1656,-,-,24
+3284,,1,CDCD,conjunction,5,,positive,765728,1646126501039,1646125735311,,images/card_009.png,,,positive,977,T,green,25
+3284,,1,CDCD,conjunction,30,,positive,765728,1646126501039,1646125735311,,images/card_025.png,,,positive,2012,T,green,26
+3284,,1,CDCD,conjunction,15,,negative,765728,1646126501039,1646125735311,,images/card_084.png,,,negative,1971,-,-,27
+3284,,1,CDCD,conjunction,15,,positive,765728,1646126501039,1646125735311,,images/card_019.png,,,negative,1451,T,green,28
+3284,,1,CDCD,conjunction,5,,negative,765728,1646126501039,1646125735311,,images/card_074.png,,,negative,1706,-,-,29
+3284,,1,CDCD,conjunction,30,,positive,765728,1646126501039,1646125735311,,images/card_027.png,,,negative,2813,T,green,30
+3284,,1,CDCD,conjunction,5,,positive,765728,1646126501039,1646125735311,,images/card_012.png,,,positive,1567,T,green,31
+3284,,2,CDCD,feature,15,,negative,765728,1646126501039,1646125735311,,images/card_115.png,,,negative,1858,-,-,0
+3284,,2,CDCD,feature,30,,positive,765728,1646126501039,1646125735311,,images/card_063.png,,,positive,1831,S,green,1
+3284,,2,CDCD,feature,30,,positive,765728,1646126501039,1646125735311,,images/card_039.png,,,positive,1368,X,blue,2
+3284,,2,CDCD,feature,5,,negative,765728,1646126501039,1646125735311,,images/card_107.png,,,negative,1553,-,-,3
+3284,,2,CDCD,feature,15,,negative,765728,1646126501039,1646125735311,,images/card_114.png,,,negative,1439,-,-,4
+3284,,2,CDCD,feature,1,,negative,765728,1646126501039,1646125735311,,images/card_098.png,,,negative,982,-,-,5
+3284,,2,CDCD,feature,1,,positive,765728,1646126501039,1646125735311,,images/card_041.png,,,positive,752,T,blue,6
+3284,,2,CDCD,feature,5,,negative,765728,1646126501039,1646125735311,,images/card_105.png,,,negative,1743,-,-,7
+3284,,2,CDCD,feature,5,,positive,765728,1646126501039,1646125735311,,images/card_059.png,,,positive,1119,S,green,8
+3284,,2,CDCD,feature,30,,negative,765728,1646126501039,1646125735311,,images/card_123.png,,,negative,1661,-,-,9
+3284,,2,CDCD,feature,30,,negative,765728,1646126501039,1646125735311,,images/card_121.png,,,negative,1923,-,-,10
+3284,,2,CDCD,feature,5,,positive,765728,1646126501039,1646125735311,,images/card_043.png,,,positive,674,T,blue,11
+3284,,2,CDCD,feature,5,,negative,765728,1646126501039,1646125735311,,images/card_108.png,,,negative,1218,-,-,12
+3284,,2,CDCD,feature,30,,negative,765728,1646126501039,1646125735311,,images/card_124.png,,,negative,1327,-,-,13
+3284,,2,CDCD,feature,15,,positive,765728,1646126501039,1646125735311,,images/card_045.png,,,positive,705,T,blue,14
+3284,,2,CDCD,feature,30,,positive,765728,1646126501039,1646125735311,,images/card_048.png,,,positive,931,T,blue,15
+3284,,2,CDCD,feature,30,,negative,765728,1646126501039,1646125735311,,images/card_122.png,,,negative,1261,-,-,16
+3284,,2,CDCD,feature,1,,positive,765728,1646126501039,1646125735311,,images/card_057.png,,,positive,1211,S,green,17
+3284,,2,CDCD,feature,15,,negative,765728,1646126501039,1646125735311,,images/card_116.png,,,negative,1247,-,-,18
+3284,,2,CDCD,feature,5,,negative,765728,1646126501039,1646125735311,,images/card_106.png,,,negative,1064,-,-,19
+3284,,2,CDCD,feature,15,,negative,765728,1646126501039,1646125735311,,images/card_113.png,,,negative,1232,-,-,20
+3284,,2,CDCD,feature,30,,positive,765728,1646126501039,1646125735311,,images/card_055.png,,,positive,1064,S,brown,21
+3284,,2,CDCD,feature,15,,positive,765728,1646126501039,1646125735311,,images/card_061.png,,,positive,925,S,green,22
+3284,,2,CDCD,feature,1,,positive,765728,1646126501039,1646125735311,,images/card_049.png,,,positive,1183,S,brown,23
+3284,,2,CDCD,feature,1,,negative,765728,1646126501039,1646125735311,,images/card_100.png,,,negative,1113,-,-,24
+3284,,2,CDCD,feature,5,,positive,765728,1646126501039,1646125735311,,images/card_035.png,,,positive,1034,X,blue,25
+3284,,2,CDCD,feature,1,,negative,765728,1646126501039,1646125735311,,images/card_099.png,,,negative,1275,-,-,26
+3284,,2,CDCD,feature,5,,positive,765728,1646126501039,1646125735311,,images/card_051.png,,,positive,1368,S,brown,27
+3284,,2,CDCD,feature,1,,positive,765728,1646126501039,1646125735311,,images/card_033.png,,,positive,940,X,blue,28
+3284,,2,CDCD,feature,15,,positive,765728,1646126501039,1646125735311,,images/card_037.png,,,positive,1126,X,blue,29
+3284,,2,CDCD,feature,1,,negative,765728,1646126501039,1646125735311,,images/card_097.png,,,negative,1093,-,-,30
+3284,,2,CDCD,feature,15,,positive,765728,1646126501039,1646125735311,,images/card_053.png,,,positive,1183,S,brown,31
+3284,,3,CDCD,conjunction,15,,positive,765728,1646126501039,1646125735311,,images/card_022.png,,,positive,2295,T,green,0
+3284,,3,CDCD,conjunction,15,,negative,765728,1646126501039,1646125735311,,images/card_086.png,,,negative,1442,-,-,1
+3284,,3,CDCD,conjunction,5,,negative,765728,1646126501039,1646125735311,,images/card_079.png,,,positive,1171,-,-,2
+3284,,3,CDCD,conjunction,5,,positive,765728,1646126501039,1646125735311,,images/card_013.png,,,positive,1363,T,green,3
+3284,,3,CDCD,conjunction,30,,negative,765728,1646126501039,1646125735311,,images/card_093.png,,,negative,1967,-,-,4
+3284,,3,CDCD,conjunction,30,,positive,765728,1646126501039,1646125735311,,images/card_031.png,,,positive,1549,T,green,5
+3284,,3,CDCD,conjunction,15,,negative,765728,1646126501039,1646125735311,,images/card_087.png,,,negative,1933,-,-,6
+3284,,3,CDCD,conjunction,15,,positive,765728,1646126501039,1646125735311,,images/card_024.png,,,positive,1541,T,green,7
+3284,,3,CDCD,conjunction,30,,negative,765728,1646126501039,1646125735311,,images/card_095.png,,,negative,2312,-,-,8
+3284,,3,CDCD,conjunction,1,,negative,765728,1646126501039,1646125735311,,images/card_069.png,,,negative,1333,-,-,9
+3284,,3,CDCD,conjunction,15,,positive,765728,1646126501039,1646125735311,,images/card_023.png,,,positive,1357,T,green,10
+3284,,3,CDCD,conjunction,30,,positive,765728,1646126501039,1646125735311,,images/card_032.png,,,negative,1632,T,green,11
+3284,,3,CDCD,conjunction,5,,positive,765728,1646126501039,1646125735311,,images/card_016.png,,,positive,1662,T,green,12
+3284,,3,CDCD,conjunction,15,,negative,765728,1646126501039,1646125735311,,images/card_085.png,,,negative,1821,-,-,13
+3284,,3,CDCD,conjunction,30,,negative,765728,1646126501039,1646125735311,,images/card_094.png,,,negative,2587,-,-,14
+3284,,3,CDCD,conjunction,1,,positive,765728,1646126501039,1646125735311,,images/card_006.png,,,positive,1009,T,green,15
+3284,,3,CDCD,conjunction,15,,positive,765728,1646126501039,1646125735311,,images/card_021.png,,,negative,1786,T,green,16
+3284,,3,CDCD,conjunction,1,,positive,765728,1646126501039,1646125735311,,images/card_005.png,,,negative,1193,T,green,17
+3284,,3,CDCD,conjunction,5,,negative,765728,1646126501039,1646125735311,,images/card_077.png,,,negative,1495,-,-,18
+3284,,3,CDCD,conjunction,30,,positive,765728,1646126501039,1646125735311,,images/card_030.png,,,positive,1235,T,green,19
+3284,,3,CDCD,conjunction,1,,negative,765728,1646126501039,1646125735311,,images/card_071.png,,,negative,1345,-,-,20
+3284,,3,CDCD,conjunction,30,,positive,765728,1646126501039,1646125735311,,images/card_029.png,,,positive,1487,T,green,21
+3284,,3,CDCD,conjunction,15,,negative,765728,1646126501039,1646125735311,,images/card_088.png,,,negative,1827,-,-,22
+3284,,3,CDCD,conjunction,1,,negative,765728,1646126501039,1646125735311,,images/card_070.png,,,negative,1069,-,-,23
+3284,,3,CDCD,conjunction,30,,negative,765728,1646126501039,1646125735311,,images/card_096.png,,,negative,1934,-,-,24
+3284,,3,CDCD,conjunction,5,,negative,765728,1646126501039,1646125735311,,images/card_080.png,,,negative,1199,-,-,25
+3284,,3,CDCD,conjunction,1,,negative,765728,1646126501039,1646125735311,,images/card_072.png,,,negative,1049,-,-,26
+3284,,3,CDCD,conjunction,1,,positive,765728,1646126501039,1646125735311,,images/card_007.png,,,positive,917,T,green,27
+3284,,3,CDCD,conjunction,5,,negative,765728,1646126501039,1646125735311,,images/card_078.png,,,negative,1441,-,-,28
+3284,,3,CDCD,conjunction,5,,positive,765728,1646126501039,1646125735311,,images/card_015.png,,,positive,1225,T,green,29
+3284,,3,CDCD,conjunction,1,,positive,765728,1646126501039,1646125735311,,images/card_008.png,,,positive,1226,T,green,30
+3284,,3,CDCD,conjunction,5,,positive,765728,1646126501039,1646125735311,,images/card_014.png,,,positive,1036,T,green,31
+3283,24,0,DCDC,conjunction,30,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_093.png,,,negative,2128,-,-,0
+3283,24,0,DCDC,conjunction,30,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_030.png,,,positive,1853,T,green,1
+3283,24,0,DCDC,conjunction,1,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_005.png,,,positive,1063,T,green,2
+3283,24,0,DCDC,conjunction,5,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_080.png,,,negative,1031,-,-,3
+3283,24,0,DCDC,conjunction,15,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_023.png,,,positive,1344,T,green,4
+3283,24,0,DCDC,conjunction,30,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_032.png,,,negative,1447,T,green,5
+3283,24,0,DCDC,conjunction,15,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_021.png,,,positive,929,T,green,6
+3283,24,0,DCDC,conjunction,5,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_077.png,,,negative,1111,-,-,7
+3283,24,0,DCDC,conjunction,5,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_013.png,,,positive,704,T,green,8
+3283,24,0,DCDC,conjunction,30,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_096.png,,,negative,2145,-,-,9
+3283,24,0,DCDC,conjunction,1,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_069.png,,,negative,1085,-,-,10
+3283,24,0,DCDC,conjunction,1,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_070.png,,,negative,612,-,-,11
+3283,24,0,DCDC,conjunction,15,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_085.png,,,negative,1291,-,-,12
+3283,24,0,DCDC,conjunction,1,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_008.png,,,positive,658,T,green,13
+3283,24,0,DCDC,conjunction,30,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_095.png,,,negative,1695,-,-,14
+3283,24,0,DCDC,conjunction,5,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_078.png,,,negative,1783,-,-,15
+3283,24,0,DCDC,conjunction,5,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_016.png,,,positive,771,T,green,16
+3283,24,0,DCDC,conjunction,15,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_088.png,,,negative,1111,-,-,17
+3283,24,0,DCDC,conjunction,1,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_072.png,,,negative,930,-,-,18
+3283,24,0,DCDC,conjunction,1,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_071.png,,,negative,816,-,-,19
+3283,24,0,DCDC,conjunction,5,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_015.png,,,positive,998,T,green,20
+3283,24,0,DCDC,conjunction,5,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_014.png,,,positive,929,T,green,21
+3283,24,0,DCDC,conjunction,15,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_024.png,,,positive,637,T,green,22
+3283,24,0,DCDC,conjunction,1,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_007.png,,,positive,503,T,green,23
+3283,24,0,DCDC,conjunction,15,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_087.png,,,negative,1154,-,-,24
+3283,24,0,DCDC,conjunction,30,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_029.png,,,positive,1002,T,green,25
+3283,24,0,DCDC,conjunction,30,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_094.png,,,negative,1491,-,-,26
+3283,24,0,DCDC,conjunction,15,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_022.png,,,positive,1309,T,green,27
+3283,24,0,DCDC,conjunction,1,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_006.png,,,positive,931,T,green,28
+3283,24,0,DCDC,conjunction,15,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_086.png,,,negative,795,-,-,29
+3283,24,0,DCDC,conjunction,30,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_031.png,,,positive,1041,T,green,30
+3283,24,0,DCDC,conjunction,5,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_079.png,,,negative,703,-,-,31
+3283,24,1,DCDC,feature,15,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_115.png,,,negative,1065,-,-,0
+3283,24,1,DCDC,feature,30,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_124.png,,,negative,1629,-,-,1
+3283,24,1,DCDC,feature,30,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_048.png,,,positive,793,T,blue,2
+3283,24,1,DCDC,feature,1,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_041.png,,,positive,749,T,blue,3
+3283,24,1,DCDC,feature,5,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_043.png,,,positive,592,T,blue,4
+3283,24,1,DCDC,feature,5,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_105.png,,,negative,1046,-,-,5
+3283,24,1,DCDC,feature,5,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_059.png,,,positive,879,S,green,6
+3283,24,1,DCDC,feature,15,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_053.png,,,positive,909,S,brown,7
+3283,24,1,DCDC,feature,15,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_114.png,,,negative,1153,-,-,8
+3283,24,1,DCDC,feature,30,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_121.png,,,negative,2030,-,-,9
+3283,24,1,DCDC,feature,5,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_035.png,,,positive,704,X,blue,10
+3283,24,1,DCDC,feature,1,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_100.png,,,negative,660,-,-,11
+3283,24,1,DCDC,feature,30,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_039.png,,,positive,683,X,blue,12
+3283,24,1,DCDC,feature,15,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_116.png,,,negative,954,-,-,13
+3283,24,1,DCDC,feature,15,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_045.png,,,positive,859,T,blue,14
+3283,24,1,DCDC,feature,15,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_113.png,,,negative,1201,-,-,15
+3283,24,1,DCDC,feature,5,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_108.png,,,negative,1131,-,-,16
+3283,24,1,DCDC,feature,15,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_037.png,,,positive,932,X,blue,17
+3283,24,1,DCDC,feature,1,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_097.png,,,negative,748,-,-,18
+3283,24,1,DCDC,feature,30,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_055.png,,,positive,818,S,brown,19
+3283,24,1,DCDC,feature,15,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_061.png,,,positive,999,S,green,20
+3283,24,1,DCDC,feature,30,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_123.png,,,negative,1288,-,-,21
+3283,24,1,DCDC,feature,30,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_063.png,,,positive,861,S,green,22
+3283,24,1,DCDC,feature,1,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_057.png,,,positive,617,S,green,23
+3283,24,1,DCDC,feature,1,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_049.png,,,positive,729,S,brown,24
+3283,24,1,DCDC,feature,1,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_099.png,,,negative,954,-,-,25
+3283,24,1,DCDC,feature,5,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_107.png,,,negative,1039,-,-,26
+3283,24,1,DCDC,feature,30,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_122.png,,,negative,1897,-,-,27
+3283,24,1,DCDC,feature,1,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_098.png,,,negative,682,-,-,28
+3283,24,1,DCDC,feature,5,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_106.png,,,negative,662,-,-,29
+3283,24,1,DCDC,feature,5,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_051.png,,,positive,954,S,brown,30
+3283,24,1,DCDC,feature,1,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_033.png,,,negative,774,X,blue,31
+3283,24,2,DCDC,conjunction,15,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_017.png,,,positive,993,T,green,0
+3283,24,2,DCDC,conjunction,30,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_092.png,,,negative,2191,-,-,1
+3283,24,2,DCDC,conjunction,15,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_081.png,,,negative,2054,-,-,2
+3283,24,2,DCDC,conjunction,1,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_003.png,,,positive,683,T,green,3
+3283,24,2,DCDC,conjunction,5,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_010.png,,,positive,751,T,green,4
+3283,24,2,DCDC,conjunction,1,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_004.png,,,positive,706,T,green,5
+3283,24,2,DCDC,conjunction,15,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_083.png,,,negative,2006,-,-,6
+3283,24,2,DCDC,conjunction,5,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_073.png,,,negative,1224,-,-,7
+3283,24,2,DCDC,conjunction,15,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_018.png,,,positive,1288,T,green,8
+3283,24,2,DCDC,conjunction,5,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_075.png,,,negative,1131,-,-,9
+3283,24,2,DCDC,conjunction,15,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_020.png,,,positive,1291,T,green,10
+3283,24,2,DCDC,conjunction,1,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_068.png,,,negative,683,-,-,11
+3283,24,2,DCDC,conjunction,5,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_009.png,,,positive,1038,T,green,12
+3283,24,2,DCDC,conjunction,30,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_027.png,,,positive,1111,T,green,13
+3283,24,2,DCDC,conjunction,30,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_026.png,,,positive,1404,T,green,14
+3283,24,2,DCDC,conjunction,15,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_082.png,,,negative,1584,-,-,15
+3283,24,2,DCDC,conjunction,30,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_089.png,,,negative,2449,-,-,16
+3283,24,2,DCDC,conjunction,30,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_090.png,,,negative,2057,-,-,17
+3283,24,2,DCDC,conjunction,30,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_025.png,,,positive,1983,T,green,18
+3283,24,2,DCDC,conjunction,5,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_076.png,,,negative,1199,-,,19
+3283,24,2,DCDC,conjunction,30,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_028.png,,,negative,2237,T,green,20
+3283,24,2,DCDC,conjunction,15,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_019.png,,,positive,904,T,green,21
+3283,24,2,DCDC,conjunction,1,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_067.png,,,negative,840,-,-,22
+3283,24,2,DCDC,conjunction,15,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_084.png,,,negative,1809,-,-,23
+3283,24,2,DCDC,conjunction,30,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_091.png,,,negative,1872,-,-,24
+3283,24,2,DCDC,conjunction,5,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_074.png,,,negative,794,-,-,25
+3283,24,2,DCDC,conjunction,5,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_012.png,,,positive,909,T,green,26
+3283,24,2,DCDC,conjunction,1,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_001.png,,,positive,583,T,green,27
+3283,24,2,DCDC,conjunction,5,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_011.png,,,positive,658,T,green,28
+3283,24,2,DCDC,conjunction,1,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_066.png,,,negative,637,-,-,29
+3283,24,2,DCDC,conjunction,1,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_065.png,,,negative,569,-,-,30
+3283,24,2,DCDC,conjunction,1,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_002.png,,,positive,637,T,green,31
+3283,24,3,DCDC,feature,5,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_043.png,,,positive,619,T,blue,0
+3283,24,3,DCDC,feature,1,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_058.png,,,positive,679,S,green,1
+3283,24,3,DCDC,feature,1,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_041.png,,,positive,661,T,blue,2
+3283,24,3,DCDC,feature,5,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_110.png,,,negative,1494,-,-,3
+3283,24,3,DCDC,feature,1,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_101.png,,,negative,1179,-,-,4
+3283,24,3,DCDC,feature,5,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_111.png,,,negative,728,-,-,5
+3283,24,3,DCDC,feature,5,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_112.png,,,negative,841,-,-,6
+3283,24,3,DCDC,feature,15,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_062.png,,,positive,594,S,green,7
+3283,24,3,DCDC,feature,30,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_128.png,,,negative,951,-,-,8
+3283,24,3,DCDC,feature,30,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_064.png,,,positive,658,S,green,9
+3283,24,3,DCDC,feature,15,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_054.png,,,positive,975,S,brown,10
+3283,24,3,DCDC,feature,5,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_036.png,,,positive,1402,X,blue,11
+3283,24,3,DCDC,feature,15,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_038.png,,,positive,546,X,blue,12
+3283,24,3,DCDC,feature,15,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_119.png,,,negative,725,-,-,13
+3283,24,3,DCDC,feature,15,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_120.png,,,negative,750,-,-,14
+3283,24,3,DCDC,feature,5,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_109.png,,,negative,749,-,-,15
+3283,24,3,DCDC,feature,1,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_104.png,,,negative,570,-,-,16
+3283,24,3,DCDC,feature,30,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_126.png,,,negative,1334,-,-,17
+3283,24,3,DCDC,feature,5,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_052.png,,,positive,997,S,brown,18
+3283,24,3,DCDC,feature,15,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_045.png,,,positive,615,T,blue,19
+3283,24,3,DCDC,feature,15,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_119.png,,,negative,1088,-,-,20
+3283,24,3,DCDC,feature,1,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_050.png,,,positive,559,S,brown,21
+3283,24,3,DCDC,feature,1,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_034.png,,,positive,514,X,blue,22
+3283,24,3,DCDC,feature,30,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_125.png,,,negative,1133,-,-,23
+3283,24,3,DCDC,feature,30,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_047.png,,,positive,705,T,blue,24
+3283,24,3,DCDC,feature,1,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_103.png,,,negative,679,-,-,25
+3283,24,3,DCDC,feature,30,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_056.png,,,positive,659,S,brown,26
+3283,24,3,DCDC,feature,5,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_060.png,,,negative,681,S,green,27
+3283,24,3,DCDC,feature,30,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_127.png,,,negative,1111,-,-,28
+3283,24,3,DCDC,feature,30,Graduated College,positive,499438,1646126300343,1646125800905,male,images/card_040.png,,,positive,590,X,blue,29
+3283,24,3,DCDC,feature,1,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_102.png,,,negative,862,-,-,30
+3283,24,3,DCDC,feature,15,Graduated College,negative,499438,1646126300343,1646125800905,male,images/card_120.png,,,negative,872,-,-,31
+3282,56,0,CDCD,feature,1,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_033.png,,,positive,1969,X,blue,0
+3282,56,0,CDCD,feature,30,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_123.png,,,negative,2175,-,-,1
+3282,56,0,CDCD,feature,30,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_039.png,,,positive,1779,X,blue,2
+3282,56,0,CDCD,feature,30,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_121.png,,,negative,1357,-,-,3
+3282,56,0,CDCD,feature,1,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_049.png,,,positive,1360,S,brown,4
+3282,56,0,CDCD,feature,30,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_124.png,,,negative,1626,-,-,5
+3282,56,0,CDCD,feature,5,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_107.png,,,negative,1799,-,-,6
+3282,56,0,CDCD,feature,15,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_114.png,,,negative,1276,-,-,7
+3282,56,0,CDCD,feature,1,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_057.png,,,positive,1165,S,green,8
+3282,56,0,CDCD,feature,15,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_053.png,,,positive,1488,S,brown,9
+3282,56,0,CDCD,feature,5,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_051.png,,,positive,1103,S,brown,10
+3282,56,0,CDCD,feature,1,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_099.png,,,negative,1575,-,-,11
+3282,56,0,CDCD,feature,30,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_122.png,,,negative,2360,-,-,12
+3282,56,0,CDCD,feature,5,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_059.png,,,positive,1031,S,green,13
+3282,56,0,CDCD,feature,15,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_116.png,,,negative,1514,-,-,14
+3282,56,0,CDCD,feature,1,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_098.png,,,negative,1296,-,-,15
+3282,56,0,CDCD,feature,5,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_043.png,,,positive,1056,T,blue,16
+3282,56,0,CDCD,feature,15,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_113.png,,,negative,1281,-,-,17
+3282,56,0,CDCD,feature,30,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_063.png,,,positive,1061,S,green,18
+3282,56,0,CDCD,feature,5,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_106.png,,,negative,1025,-,-,19
+3282,56,0,CDCD,feature,30,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_048.png,,,positive,1092,T,blue,20
+3282,56,0,CDCD,feature,15,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_045.png,,,positive,1134,T,blue,21
+3282,56,0,CDCD,feature,1,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_041.png,,,positive,866,T,blue,22
+3282,56,0,CDCD,feature,1,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_097.png,,,negative,982,-,-,23
+3282,56,0,CDCD,feature,1,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_100.png,,,negative,983,-,-,24
+3282,56,0,CDCD,feature,15,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_037.png,,,positive,998,X,blue,25
+3282,56,0,CDCD,feature,5,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_105.png,,,negative,1390,-,-,26
+3282,56,0,CDCD,feature,30,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_055.png,,,positive,1169,S,brown,27
+3282,56,0,CDCD,feature,15,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_115.png,,,negative,1429,-,-,28
+3282,56,0,CDCD,feature,5,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_108.png,,,negative,1089,-,-,29
+3282,56,0,CDCD,feature,5,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_035.png,,,positive,869,X,blue,30
+3282,56,0,CDCD,feature,15,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_061.png,,,positive,1129,S,green,31
+3282,56,1,CDCD,conjunction,1,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_070.png,,,negative,1282,-,-,0
+3282,56,1,CDCD,conjunction,15,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_023.png,,,positive,946,T,green,1
+3282,56,1,CDCD,conjunction,5,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_016.png,,,positive,1454,T,green,2
+3282,56,1,CDCD,conjunction,1,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_071.png,,,negative,1352,-,-,3
+3282,56,1,CDCD,conjunction,30,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_093.png,,,negative,1984,-,-,4
+3282,56,1,CDCD,conjunction,1,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_072.png,,,negative,1301,-,-,5
+3282,56,1,CDCD,conjunction,5,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_014.png,,,positive,1037,T,green,6
+3282,56,1,CDCD,conjunction,5,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_079.png,,,negative,1130,-,-,7
+3282,56,1,CDCD,conjunction,15,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_087.png,,,negative,1630,-,-,8
+3282,56,1,CDCD,conjunction,1,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_069.png,,,negative,1029,-,-,9
+3282,56,1,CDCD,conjunction,5,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_080.png,,,negative,1057,-,-,10
+3282,56,1,CDCD,conjunction,15,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_085.png,,,negative,1292,-,-,11
+3282,56,1,CDCD,conjunction,15,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_086.png,,,negative,1112,-,-,12
+3282,56,1,CDCD,conjunction,5,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_015.png,,,positive,996,T,green,13
+3282,56,1,CDCD,conjunction,1,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_006.png,,,positive,793,T,green,14
+3282,56,1,CDCD,conjunction,1,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_007.png,,,positive,783,T,green,15
+3282,56,1,CDCD,conjunction,30,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_030.png,,,positive,1265,T,green,16
+3282,56,1,CDCD,conjunction,5,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_077.png,,,negative,1152,-,-,17
+3282,56,1,CDCD,conjunction,30,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_031.png,,,positive,862,T,green,18
+3282,56,1,CDCD,conjunction,15,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_022.png,,,negative,1005,T,green,19
+3282,56,1,CDCD,conjunction,30,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_032.png,,,negative,1496,T,green,20
+3282,56,1,CDCD,conjunction,30,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_095.png,,,negative,1206,-,-,21
+3282,56,1,CDCD,conjunction,5,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_013.png,,,positive,900,T,green,22
+3282,56,1,CDCD,conjunction,15,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_021.png,,,positive,1552,T,green,23
+3282,56,1,CDCD,conjunction,1,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_008.png,,,positive,978,T,green,24
+3282,56,1,CDCD,conjunction,30,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_094.png,,,negative,1777,-,-,25
+3282,56,1,CDCD,conjunction,15,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_024.png,,,positive,963,T,green,26
+3282,56,1,CDCD,conjunction,30,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_096.png,,,negative,2465,-,-,27
+3282,56,1,CDCD,conjunction,30,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_029.png,,,positive,1105,T,green,28
+3282,56,1,CDCD,conjunction,5,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_078.png,,,negative,832,-,-,29
+3282,56,1,CDCD,conjunction,1,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_005.png,,,positive,818,T,green,30
+3282,56,1,CDCD,conjunction,15,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_088.png,,,negative,1048,-,-,31
+3282,56,2,CDCD,feature,15,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_062.png,,,positive,1304,S,green,0
+3282,56,2,CDCD,feature,30,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_047.png,,,positive,673,T,blue,1
+3282,56,2,CDCD,feature,1,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_101.png,,,negative,894,-,-,2
+3282,56,2,CDCD,feature,5,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_109.png,,,negative,1014,-,-,3
+3282,56,2,CDCD,feature,30,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_125.png,,,negative,1879,-,-,4
+3282,56,2,CDCD,feature,15,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_119.png,,,negative,1046,-,-,5
+3282,56,2,CDCD,feature,15,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_120.png,,,negative,1153,-,-,6
+3282,56,2,CDCD,feature,30,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_064.png,,,positive,1267,S,green,7
+3282,56,2,CDCD,feature,5,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_052.png,,,positive,838,S,brown,8
+3282,56,2,CDCD,feature,1,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_041.png,,,negative,832,T,blue,9
+3282,56,2,CDCD,feature,30,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_127.png,,,negative,1816,-,-,10
+3282,56,2,CDCD,feature,1,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_103.png,,,negative,900,-,-,11
+3282,56,2,CDCD,feature,30,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_128.png,,,negative,1697,-,-,12
+3282,56,2,CDCD,feature,1,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_102.png,,,negative,1208,-,-,13
+3282,56,2,CDCD,feature,5,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_043.png,,,positive,824,T,blue,14
+3282,56,2,CDCD,feature,5,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_060.png,,,positive,1333,S,green,15
+3282,56,2,CDCD,feature,15,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_119.png,,,negative,1034,-,-,16
+3282,56,2,CDCD,feature,5,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_110.png,,,negative,1414,-,-,17
+3282,56,2,CDCD,feature,1,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_104.png,,,negative,896,-,-,18
+3282,56,2,CDCD,feature,15,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_045.png,,,positive,736,T,blue,19
+3282,56,2,CDCD,feature,5,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_112.png,,,negative,1180,-,-,20
+3282,56,2,CDCD,feature,5,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_111.png,,,negative,1042,-,-,21
+3282,56,2,CDCD,feature,15,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_054.png,,,positive,1302,S,brown,22
+3282,56,2,CDCD,feature,1,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_034.png,,,positive,1026,X,blue,23
+3282,56,2,CDCD,feature,30,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_056.png,,,positive,1435,S,brown,24
+3282,56,2,CDCD,feature,30,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_040.png,,,positive,1017,X,blue,25
+3282,56,2,CDCD,feature,1,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_058.png,,,positive,876,S,green,26
+3282,56,2,CDCD,feature,15,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_038.png,,,positive,1005,X,blue,27
+3282,56,2,CDCD,feature,1,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_050.png,,,positive,989,S,brown,28
+3282,56,2,CDCD,feature,30,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_126.png,,,negative,1770,-,-,29
+3282,56,2,CDCD,feature,5,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_036.png,,,positive,927,X,blue,30
+3282,56,2,CDCD,feature,15,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_120.png,,,negative,868,-,-,31
+3282,56,3,CDCD,conjunction,5,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_074.png,,,negative,1459,-,-,0
+3282,56,3,CDCD,conjunction,1,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_067.png,,,negative,1072,-,-,1
+3282,56,3,CDCD,conjunction,15,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_018.png,,,positive,1345,T,green,2
+3282,56,3,CDCD,conjunction,5,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_075.png,,,negative,1097,-,-,3
+3282,56,3,CDCD,conjunction,15,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_084.png,,,negative,1265,-,-,4
+3282,56,3,CDCD,conjunction,15,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_082.png,,,negative,1098,-,-,5
+3282,56,3,CDCD,conjunction,1,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_002.png,,,positive,873,T,green,6
+3282,56,3,CDCD,conjunction,1,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_065.png,,,negative,879,-,-,7
+3282,56,3,CDCD,conjunction,5,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_076.png,,,negative,970,-,,8
+3282,56,3,CDCD,conjunction,30,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_025.png,,,positive,1394,T,green,9
+3282,56,3,CDCD,conjunction,30,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_090.png,,,negative,1650,-,-,10
+3282,56,3,CDCD,conjunction,30,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_092.png,,,negative,1450,-,-,11
+3282,56,3,CDCD,conjunction,1,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_004.png,,,positive,824,T,green,12
+3282,56,3,CDCD,conjunction,1,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_003.png,,,positive,1011,T,green,13
+3282,56,3,CDCD,conjunction,30,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_026.png,,,positive,1382,T,green,14
+3282,56,3,CDCD,conjunction,30,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_027.png,,,negative,1562,T,green,15
+3282,56,3,CDCD,conjunction,15,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_083.png,,,negative,1424,-,-,16
+3282,56,3,CDCD,conjunction,5,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_011.png,,,positive,1133,T,green,17
+3282,56,3,CDCD,conjunction,5,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_009.png,,,positive,809,T,green,18
+3282,56,3,CDCD,conjunction,15,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_019.png,,,positive,1322,T,green,19
+3282,56,3,CDCD,conjunction,30,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_091.png,,,negative,1469,-,-,20
+3282,56,3,CDCD,conjunction,15,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_020.png,,,positive,1142,T,green,21
+3282,56,3,CDCD,conjunction,15,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_017.png,,,positive,931,T,green,22
+3282,56,3,CDCD,conjunction,1,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_068.png,,,negative,1000,-,-,23
+3282,56,3,CDCD,conjunction,1,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_066.png,,,negative,934,-,-,24
+3282,56,3,CDCD,conjunction,5,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_012.png,,,positive,1097,T,green,25
+3282,56,3,CDCD,conjunction,15,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_081.png,,,negative,1493,-,-,26
+3282,56,3,CDCD,conjunction,30,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_028.png,,,positive,1928,T,green,27
+3282,56,3,CDCD,conjunction,5,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_010.png,,,positive,947,T,green,28
+3282,56,3,CDCD,conjunction,1,Higher degree,positive,635181,1646059785770,1646059150589,female,images/card_001.png,,,positive,796,T,green,29
+3282,56,3,CDCD,conjunction,30,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_089.png,,,negative,1939,-,-,30
+3282,56,3,CDCD,conjunction,5,Higher degree,negative,635181,1646059785770,1646059150589,female,images/card_073.png,,,negative,1072,-,-,31
+3281,22,0,DCDC,conjunction,15,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_020.png,,,positive,1750,T,green,0
+3281,22,0,DCDC,conjunction,5,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_075.png,,,negative,1357,-,-,1
+3281,22,0,DCDC,conjunction,5,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_011.png,,,positive,1605,T,green,2
+3281,22,0,DCDC,conjunction,30,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_025.png,,,positive,2132,T,green,3
+3281,22,0,DCDC,conjunction,5,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_010.png,,,positive,2867,T,green,4
+3281,22,0,DCDC,conjunction,15,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_084.png,,,negative,1186,-,-,5
+3281,22,0,DCDC,conjunction,15,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_083.png,,,negative,1377,-,-,6
+3281,22,0,DCDC,conjunction,5,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_012.png,,,positive,1030,T,green,7
+3281,22,0,DCDC,conjunction,1,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_065.png,,,negative,1019,-,-,8
+3281,22,0,DCDC,conjunction,30,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_091.png,,,negative,2550,-,-,9
+3281,22,0,DCDC,conjunction,15,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_019.png,,,positive,1266,T,green,10
+3281,22,0,DCDC,conjunction,1,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_066.png,,,negative,1040,-,-,11
+3281,22,0,DCDC,conjunction,15,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_018.png,,,positive,1224,T,green,12
+3281,22,0,DCDC,conjunction,5,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_073.png,,,negative,1107,-,-,13
+3281,22,0,DCDC,conjunction,1,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_068.png,,,negative,906,-,-,14
+3281,22,0,DCDC,conjunction,1,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_001.png,,,positive,828,T,green,15
+3281,22,0,DCDC,conjunction,1,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_004.png,,,positive,839,T,green,16
+3281,22,0,DCDC,conjunction,30,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_026.png,,,positive,1244,T,green,17
+3281,22,0,DCDC,conjunction,30,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_027.png,,,positive,2630,T,green,18
+3281,22,0,DCDC,conjunction,30,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_090.png,,,negative,2212,-,-,19
+3281,22,0,DCDC,conjunction,5,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_076.png,,,negative,1267,-,,20
+3281,22,0,DCDC,conjunction,5,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_009.png,,,positive,974,T,green,21
+3281,22,0,DCDC,conjunction,5,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_074.png,,,negative,1267,-,-,22
+3281,22,0,DCDC,conjunction,15,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_082.png,,,negative,1764,-,-,23
+3281,22,0,DCDC,conjunction,15,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_081.png,,,negative,1729,-,-,24
+3281,22,0,DCDC,conjunction,1,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_002.png,,,positive,1132,T,green,25
+3281,22,0,DCDC,conjunction,1,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_003.png,,,positive,884,T,green,26
+3281,22,0,DCDC,conjunction,1,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_067.png,,,negative,1224,-,-,27
+3281,22,0,DCDC,conjunction,30,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_089.png,,,negative,2922,-,-,28
+3281,22,0,DCDC,conjunction,30,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_092.png,,,negative,2032,-,-,29
+3281,22,0,DCDC,conjunction,30,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_028.png,,,positive,1807,T,green,30
+3281,22,0,DCDC,conjunction,15,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_017.png,,,positive,1333,T,green,31
+3281,22,1,DCDC,feature,1,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_101.png,,,negative,959,-,-,0
+3281,22,1,DCDC,feature,30,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_047.png,,,positive,976,T,blue,1
+3281,22,1,DCDC,feature,30,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_064.png,,,negative,1142,S,green,2
+3281,22,1,DCDC,feature,30,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_126.png,,,negative,2099,-,-,3
+3281,22,1,DCDC,feature,15,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_038.png,,,positive,864,X,blue,4
+3281,22,1,DCDC,feature,30,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_128.png,,,negative,1642,-,-,5
+3281,22,1,DCDC,feature,15,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_119.png,,,negative,1786,-,-,6
+3281,22,1,DCDC,feature,5,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_110.png,,,negative,1064,-,-,7
+3281,22,1,DCDC,feature,5,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_060.png,,,positive,988,S,green,8
+3281,22,1,DCDC,feature,15,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_120.png,,,negative,1886,-,-,9
+3281,22,1,DCDC,feature,30,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_127.png,,,negative,1940,-,-,10
+3281,22,1,DCDC,feature,30,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_040.png,,,positive,872,X,blue,11
+3281,22,1,DCDC,feature,1,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_041.png,,,positive,841,T,blue,12
+3281,22,1,DCDC,feature,15,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_054.png,,,positive,1112,S,brown,13
+3281,22,1,DCDC,feature,30,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_125.png,,,negative,2112,-,-,14
+3281,22,1,DCDC,feature,1,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_058.png,,,positive,927,S,green,15
+3281,22,1,DCDC,feature,5,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_111.png,,,negative,1335,-,-,16
+3281,22,1,DCDC,feature,1,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_104.png,,,negative,998,-,-,17
+3281,22,1,DCDC,feature,15,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_119.png,,,negative,1309,-,-,18
+3281,22,1,DCDC,feature,5,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_043.png,,,positive,851,T,blue,19
+3281,22,1,DCDC,feature,5,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_109.png,,,negative,1033,-,-,20
+3281,22,1,DCDC,feature,1,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_102.png,,,negative,1220,-,-,21
+3281,22,1,DCDC,feature,15,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_062.png,,,positive,973,S,green,22
+3281,22,1,DCDC,feature,30,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_056.png,,,positive,1132,S,brown,23
+3281,22,1,DCDC,feature,5,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_052.png,,,positive,1098,S,brown,24
+3281,22,1,DCDC,feature,1,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_034.png,,,positive,1018,X,blue,25
+3281,22,1,DCDC,feature,15,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_045.png,,,positive,999,T,blue,26
+3281,22,1,DCDC,feature,15,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_120.png,,,negative,999,-,-,27
+3281,22,1,DCDC,feature,5,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_112.png,,,negative,1063,-,-,28
+3281,22,1,DCDC,feature,1,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_103.png,,,negative,1156,-,-,29
+3281,22,1,DCDC,feature,1,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_050.png,,,positive,1155,S,brown,30
+3281,22,1,DCDC,feature,5,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_036.png,,,positive,1188,X,blue,31
+3281,22,2,DCDC,conjunction,30,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_093.png,,,negative,1428,-,-,0
+3281,22,2,DCDC,conjunction,5,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_016.png,,,positive,1108,T,green,1
+3281,22,2,DCDC,conjunction,5,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_077.png,,,negative,1449,-,-,2
+3281,22,2,DCDC,conjunction,1,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_007.png,,,positive,942,T,green,3
+3281,22,2,DCDC,conjunction,1,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_072.png,,,negative,1065,-,-,4
+3281,22,2,DCDC,conjunction,15,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_023.png,,,positive,1493,T,green,5
+3281,22,2,DCDC,conjunction,30,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_096.png,,,negative,2705,-,-,6
+3281,22,2,DCDC,conjunction,1,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_005.png,,,positive,1277,T,green,7
+3281,22,2,DCDC,conjunction,15,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_088.png,,,negative,1360,-,-,8
+3281,22,2,DCDC,conjunction,1,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_006.png,,,positive,910,T,green,9
+3281,22,2,DCDC,conjunction,15,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_021.png,,,positive,1354,T,green,10
+3281,22,2,DCDC,conjunction,5,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_013.png,,,positive,1022,T,green,11
+3281,22,2,DCDC,conjunction,30,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_030.png,,,negative,2393,T,green,12
+3281,22,2,DCDC,conjunction,5,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_080.png,,,negative,1400,-,-,13
+3281,22,2,DCDC,conjunction,15,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_022.png,,,positive,1785,T,green,14
+3281,22,2,DCDC,conjunction,15,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_086.png,,,negative,1489,-,-,15
+3281,22,2,DCDC,conjunction,1,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_070.png,,,negative,841,-,-,16
+3281,22,2,DCDC,conjunction,5,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_078.png,,,negative,1248,-,-,17
+3281,22,2,DCDC,conjunction,1,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_071.png,,,negative,1190,-,-,18
+3281,22,2,DCDC,conjunction,5,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_015.png,,,positive,1423,T,green,19
+3281,22,2,DCDC,conjunction,15,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_024.png,,,positive,1045,T,green,20
+3281,22,2,DCDC,conjunction,5,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_079.png,,,negative,1133,-,-,21
+3281,22,2,DCDC,conjunction,30,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_032.png,,,negative,2323,T,green,22
+3281,22,2,DCDC,conjunction,15,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_087.png,,,negative,1166,-,-,23
+3281,22,2,DCDC,conjunction,5,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_014.png,,,positive,1187,T,green,24
+3281,22,2,DCDC,conjunction,30,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_031.png,,,positive,1671,T,green,25
+3281,22,2,DCDC,conjunction,1,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_008.png,,,positive,1065,T,green,26
+3281,22,2,DCDC,conjunction,1,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_069.png,,,negative,1085,-,-,27
+3281,22,2,DCDC,conjunction,15,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_085.png,,,negative,1605,-,-,28
+3281,22,2,DCDC,conjunction,30,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_029.png,,,positive,1507,T,green,29
+3281,22,2,DCDC,conjunction,30,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_095.png,,,negative,2767,-,-,30
+3281,22,2,DCDC,conjunction,30,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_094.png,,,negative,2535,-,-,31
+3281,22,3,DCDC,feature,30,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_124.png,,,negative,1116,-,-,0
+3281,22,3,DCDC,feature,15,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_037.png,,,positive,921,X,blue,1
+3281,22,3,DCDC,feature,15,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_061.png,,,positive,1168,S,green,2
+3281,22,3,DCDC,feature,30,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_048.png,,,positive,1018,T,blue,3
+3281,22,3,DCDC,feature,1,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_057.png,,,positive,828,S,green,4
+3281,22,3,DCDC,feature,5,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_051.png,,,positive,1122,S,brown,5
+3281,22,3,DCDC,feature,1,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_049.png,,,positive,864,S,brown,6
+3281,22,3,DCDC,feature,30,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_122.png,,,negative,1831,-,-,7
+3281,22,3,DCDC,feature,30,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_039.png,,,positive,888,X,blue,8
+3281,22,3,DCDC,feature,15,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_113.png,,,negative,1760,-,-,9
+3281,22,3,DCDC,feature,30,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_121.png,,,negative,1562,-,-,10
+3281,22,3,DCDC,feature,1,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_099.png,,,negative,842,-,-,11
+3281,22,3,DCDC,feature,1,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_100.png,,,negative,905,-,-,12
+3281,22,3,DCDC,feature,30,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_063.png,,,positive,1079,S,green,13
+3281,22,3,DCDC,feature,5,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_108.png,,,negative,983,-,-,14
+3281,22,3,DCDC,feature,15,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_114.png,,,negative,1290,-,-,15
+3281,22,3,DCDC,feature,5,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_059.png,,,positive,882,S,green,16
+3281,22,3,DCDC,feature,15,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_115.png,,,negative,1063,-,-,17
+3281,22,3,DCDC,feature,15,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_116.png,,,negative,1761,-,-,18
+3281,22,3,DCDC,feature,1,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_033.png,,,positive,840,X,blue,19
+3281,22,3,DCDC,feature,5,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_105.png,,,negative,1043,-,-,20
+3281,22,3,DCDC,feature,5,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_043.png,,,positive,615,T,blue,21
+3281,22,3,DCDC,feature,1,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_041.png,,,positive,685,T,blue,22
+3281,22,3,DCDC,feature,1,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_097.png,,,negative,1044,-,-,23
+3281,22,3,DCDC,feature,30,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_123.png,,,negative,2131,-,-,24
+3281,22,3,DCDC,feature,5,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_107.png,,,negative,1065,-,-,25
+3281,22,3,DCDC,feature,1,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_098.png,,,negative,889,-,-,26
+3281,22,3,DCDC,feature,15,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_045.png,,,positive,759,T,blue,27
+3281,22,3,DCDC,feature,30,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_055.png,,,positive,1052,S,brown,28
+3281,22,3,DCDC,feature,5,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_035.png,,,positive,1021,X,blue,29
+3281,22,3,DCDC,feature,5,Graduated College,negative,559233,1646040314223,1646039754990,male,images/card_106.png,,,negative,974,-,-,30
+3281,22,3,DCDC,feature,15,Graduated College,positive,559233,1646040314223,1646039754990,male,images/card_053.png,,,positive,1176,S,brown,31
