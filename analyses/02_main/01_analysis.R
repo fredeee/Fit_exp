@@ -27,7 +27,6 @@ trial_frame$experiment_duration <- trial_frame$experiment_duration/60000
 
 # filter outliers
 trial_frame <- subset(trial_frame, response_time < 3000 & response_time > 200)
-trial_frame <- subset(trial_frame, display_size != 1)
 
 # participants frame
 trial_frame$age[is.na(trial_frame$age)]<-NaN
@@ -68,15 +67,8 @@ tf <- tf_all
 # ---- descriptive ---
 # overall
 describe(response_time ~ display_size, data=tf)
+describe(response_time ~ condition, data=tf)
 hist(tf$response_time, breaks = 100)
-
-# plots
-data <- aggregate(response_time ~ size + expected + condition, data=tf_color, mean)
-ggplot(data = data, 
-       mapping = aes(y = response_time, x=size, group=interaction(expected,condition), color=interaction(expected,condition) )) + 
-  geom_point() + 
-  geom_line()
-
 
 # ---- regression model ---
 # bayesian
@@ -103,6 +95,7 @@ hypothesis(fit_RT, "expectednegative:conditionfeature:size > 0", class = "b")
 # ---- comparison for RT of size 1 ---
 # Hypothesis 3:
 hist(subset(tf, size == 1)$response_time, breaks = 25)
+describe(response_time ~ condition, data=subset(tf, size == 1))
 t.test(response_time ~ condition,  subset(tf, size == 1), var.equal = TRUE)
 
 
@@ -143,11 +136,12 @@ ggplot(data = data,
 tf <- trial_frame[, c('submission_id', 'condition', 'size', 'expected', 'response')]
 
 # metrics
-tf$fp <- (tf$expected == 'negative' & tf$response == 'postive')
+tf$fp <- (tf$expected == 'negative' & tf$response == 'positive')
 tf$fn <- (tf$expected == 'positive' & tf$response == 'negative')
 tf$error <- (tf$expected != tf$response)
 
 # descriptive
+prop.table(table(tf$error, tf$condition), margin = 2)
 prop.table(table(tf$fn, tf$condition), margin = 2)
 prop.table(table(tf$fp, tf$condition), margin = 2)
 
@@ -174,3 +168,7 @@ fit_error <- glm(error ~ expected:condition + size:expected:condition -1, data=t
 
 # Hypothesis 4:
 summary(fit_error)
+confint(fit_error)
+
+load(file = "fit_RT.RData")
+
