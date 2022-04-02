@@ -1,4 +1,4 @@
-# Analysis script for the feature integration theory experiment
+# Analysis script for the feature-integration theory main experiment
 
 # 0. Packages --------------------------------------------------------------
 library(psych)
@@ -22,7 +22,7 @@ trial_frame$size <- as.numeric(trial_frame$display_size)
 factor_variables <- c("submission_id", "condition", "display_size", "expected", "response", "target", "target_color")
 trial_frame[factor_variables] <- lapply(trial_frame[factor_variables], factor)
 
-# convert time from ms to minutes
+# convert total time from ms to minutes
 trial_frame$experiment_duration <- trial_frame$experiment_duration/60000
 
 # filter outliers
@@ -71,12 +71,12 @@ describe(response_time ~ condition, data=tf)
 hist(tf$response_time, breaks = 100)
 
 # ---- regression model ---
-# bayesian
 fit_RT <- brm(response_time ~  expected:condition + size:expected:condition -1, 
               data=tf, 
               family = gaussian())
+#load(file='models/fit_RT.RData')
+#save(fit_RT, file='models/fit_RT.RData')
 summary(fit_RT)
-#save(fit_RT, file='fit_RT.RData')
 
 # Hypothesis 1.1:
 hypothesis(fit_RT, "expectedpositive:conditionconjunction:size > 0", class = "b")
@@ -92,42 +92,28 @@ hypothesis(fit_RT, "expectedpositive:conditionfeature:size = 0", class = "b")
 hypothesis(fit_RT, "expectednegative:conditionfeature:size > 0", class = "b")
 
 
-# ---- comparison for RT of size 1 ---
+# ---- comparison for RT for trials with display size 1 ---
 # Hypothesis 3:
 hist(subset(tf, size == 1)$response_time, breaks = 25)
 describe(response_time ~ condition, data=subset(tf, size == 1))
 t.test(response_time ~ condition,  subset(tf, size == 1), var.equal = TRUE)
 
 
-# ---- follow-up analysis ---
-tf_plus1 <- subset(tf_all, display_size != 1)
-  
-fit_RT_plus1 <- brm(response_time ~  expected:condition + size:expected:condition -1, 
-              data=tf_plus1, 
-              family = gaussian())
-summary(fit_RT_plus1)
-
-
-
-
-# ---- follow-up feature ---
+# ---- exploratory analyisis of different features in the feature conditions ---
+# create variable that distinguishes between color defined and shape defined targets
 tf_feature_positive <- subset(tf_all, condition == 'feature' & response == 'positive')
 tf_feature_positive$feature_condition = 'color'
 tf_feature_positive[tf_feature_positive$target == 'S',]$feature_condition = 'shape'
 tf_feature_positive$feature_condition <- factor(tf_feature_positive$feature_condition)
 
+# regression model
 fit_RT_feature_positive <- brm(response_time ~  feature_condition + feature_condition:size -1, 
                data=tf_feature_positive, 
                family = gaussian())
+#load(file='models/fit_RT_feature_positive.RData.RData')
+#save(fit_RT, file='models/fit_RT_feature_positive.RData.RData')
+
 summary(fit_RT_feature_positive)
-
-# plots
-data <- aggregate(response_time ~ feature_condition + size, data=tf_feature_positive, mean)
-ggplot(data = data, 
-       mapping = aes(y = response_time, x=size, group=feature_condition, color=feature_condition )) + 
-  geom_point() + 
-  geom_line()
-
 
 
 # 4. Analysis Errors ------------------------------------------------------
@@ -155,7 +141,7 @@ aggregate(. ~ size,
           tf[, c('size', 'fn', 'fp')],
           mean)
 
-# plots
+# plot
 data <- aggregate(error ~ size + expected + condition, data=tf, mean)
 ggplot(data = data, 
        mapping = aes(y = error, x=size, group=interaction(expected,condition), color=interaction(expected,condition) )) + 
@@ -163,12 +149,12 @@ ggplot(data = data,
   geom_line()
 
 
-# apply linear model
-fit_error <- glm(error ~ expected:condition + size:expected:condition -1, data=tf, family="binomial")
+# regression model
+fit_error <- brm(error ~  expected:condition + size:expected:condition -1, 
+                               data=tf, 
+                               family = bernoulli(link = "logit"))
+#load(file='models/fit_error.RData')
+#save(fit_error, file='models/fit_error.RData')
 
 # Hypothesis 4:
 summary(fit_error)
-confint(fit_error)
-
-load(file = "fit_RT.RData")
-

@@ -1,4 +1,4 @@
-# Plot script for the feature integration theory experiment
+# Plot script for the feature integration theory main experiment
 
 # 0. Packages --------------------------------------------------------------
 library(psych)
@@ -22,25 +22,8 @@ trial_frame$experiment_duration <- trial_frame$experiment_duration/60000
 # filter outliers
 trial_frame <- subset(trial_frame, response_time < 3000 & response_time > 200)
 
-# 2. Line plot all conditions -------------------------------------------------------------
 
-# subset
-tf <- subset(trial_frame, expected == response)
-
-data <- aggregate(response_time ~ size + expected + condition, data=tf, mean)
-ggplot(data = data, 
-       mapping = aes(y = response_time, x=size, group=interaction(expected,condition),
-                     color=condition, linetype=expected)) + 
-  geom_point() + 
-  geom_line() +
-  xlab("Display Size") +
-  ylab("Response Time (ms)") + 
-  scale_color_manual(values=c("#3977AF", "#EF8536")) + 
-  labs(linetype ='Response', color='Condition') + 
-  guides(linetype = guide_legend(reverse=TRUE))
-
-
-# 3. Line plot all conditions and subgroups -------------------------------------------------------------
+# 2. Line plot all conditions and subgroups -------------------------------------------------------------
 
 # subset
 tf <- subset(trial_frame, expected == response)
